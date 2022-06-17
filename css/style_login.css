@@ -138,11 +138,14 @@ body {
     background-color: #ffc400ef;
 }
 
+.buttons {
+    justify-content: space-between;
+}
 
 
 /* The sidepanel menu */
 .sidepanel {
-    height: 3200px; 
+    height: 350px; 
     width: 0; 
     position: fixed; 
     z-index: 1; 
@@ -151,8 +154,9 @@ body {
     background-color: #111; 
     overflow-x: hidden; 
     padding-top: 50px; 
-    transition: 0.5s; 
-    box-shadow: 2px 2px 10px #0367fd;
+    transition: 0.5s;
+    box-shadow: 3px 3px 14px#0367fd;
+    border-bottom-right-radius: 24px;
   }
 
   .sidepanel a, .dropdown-btn {
@@ -182,7 +186,7 @@ body {
   }
 
   .active {
-    background-color: #0367fd;
+    background-color: #ffc400ef;
     color: white;
   }
 

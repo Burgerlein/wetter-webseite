@@ -16,7 +16,7 @@ function validate() {
     if(username =='Tim' && password =='123'){
         window.location.href="../html/home.html";
 
-        window.location.location("../html/home.html");
+        window.location.replace("../html/home.html");
     }
     else {
         alert('Flasche Eingbae')  
