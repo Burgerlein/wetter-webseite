@@ -9,6 +9,21 @@
 </head>
 
 <body>
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <button class="dropdown-btn">Anmelden
+            <i class="fa fa-caret-down"></i>
+          </button>
+        <div class="dropdown-container">
+            <a href="login.html">Login</a>
+            <a href="regestration.html">Regestrieren</a>
+        </div>
+        <a href="#">Help</a>
+    </div>
+      <button class="openbtn" onclick="openNav()">&#9776;</button>
+      
     <div class="wrapper">
         <form class="box">
             <h1>Einlogggen</h1>
@@ -29,11 +44,14 @@
                 </a>
             </div>
             
-            <!--Button Login-->
-            <button id="btn-login" type="submit" onclick="validate()">Login</button>
 
-            <!--Button Regestrierung-->
-            <a href="../html/regestration.html" class="link">Regestrieren</a>
+            <div class="login-signin">
+                <!--Button Login-->
+                <button id="btn-login" type="submit" onclick="validate()">Login</button>
+
+                <!--Button Regestrierung-->
+                 <a href="../html/regestration.html" class="link">Regestrieren</a>
+            </div>
         </form>
     </div>
 
