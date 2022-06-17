@@ -82,10 +82,4 @@ async function getWeatherdata() {
     }).catch((error) => {
       alert("irgendwas ist schief gelaufen"); // alternativ ''
     }); 
-    /*
-    console.log(response.status);
-  const wetter = await response.json();
-  const city = wetter.name;
-  let cityHtml = document.getElementById('city');
-  cityHtml.innerHTML = city;*/
 }
