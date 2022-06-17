@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat",
+    sans-serif;
+    background:linear-gradient(rgba(0 , 0, 0, 0.5),rgba(0 , 0, 0, 0.5)), url(/img/Aussicht\ Meer\ -\ Mann.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+    border-radius: 20px;
+    width: 400px;
+    padding: 30px;
+    background-color: rgba(0 , 0, 0, 0.4);
+    box-shadow: 2px 2px 10px #0367fd;
+    display: flex;
+    flex-direction: column;
+}
+
+.box h1 {
+    color: white;
+    text-shadow: 3px 3px 14px #0367fd;
+    text-transform: uppercase;
+    font-weight: 700;
+    align-self: center;
+}
+
+
+.username,
+.password {
+    position: relative;
+}
+
+/*Brief und Schloss*/
+.fa-envelope,
+.fa-lock-open {
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    color: white;
+}
+
+/*Passwort anzeigen oder verstecken Button */
+.passwort-feld[type=password] ~ .password-button .password-verstecken-icon,
+.passwort-feld[type=text] ~ .password-button .password-anzeige-icon {
+    display: none;
+}
+.password-button {
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+/*Eingabe Felder*/
+.box input[type="text"],
+.box input[type="password"] {
+    font-size: 20px;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #0367fd;
+    padding: 14px 10px;
+    width: 320px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: all .2s ease-in;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 320px;
+    border-color: #ffc400ef;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Regestrierungs text*/
+.link {
+    color: white;
+    font-size: 15px;
+    font-family: "Montserrat",
+}
+
+/*Login Button*/
+#btn-login {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #0367fd;
+    padding: 14px 35px;
+    font-size: 18px;
+    color: white;
+    border-radius: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#btn-login:hover {
+    border: 3px solid #ffc400ef;
+    background-color: #ffc400ef;
+}
+
+/*Sigin Button*/
+.link {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #0367fd;
+    padding: 14px 35px;
+    font-size: 18px;
+    color: white;
+    border-radius: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.link:hover {
+    border: 3px solid #ffc400ef;
+    background-color: #ffc400ef;
+}
