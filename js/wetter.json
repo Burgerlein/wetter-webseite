@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 7.6,
+        "lat": 50.35
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "Bedeckt",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 27.87,
+        "feels_like": 27.49,
+        "temp_min": 25.65,
+        "temp_max": 30.24,
+        "pressure": 1019,
+        "humidity": 39
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.47,
+        "deg": 196,
+        "gust": 2.67
+    },
+    "clouds": {
+        "all": 92
+    },
+    "dt": 1655467754,
+    "sys": {
+        "type": 2,
+        "id": 19193,
+        "country": "DE",
+        "sunrise": 1655435882,
+        "sunset": 1655494978
+    },
+    "timezone": 7200,
+    "id": 2886946,
+    "name": "Koblenz",
+    "cod": 200
+}
